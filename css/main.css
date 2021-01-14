@@ -1,0 +1,178 @@
+/*Main Colors	
+#FFD700 //icon gold
+		#333333 //grey
+		#555  
+*/
+html {
+  scroll-behavior: smooth;
+  
+  }
+/* scroll bar*/
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FFD700; 
+    border-radius: 10px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FFD700; 
+  }
+/*end scroll bar*/
+/*Start FrameWork*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding:0;
+	margin:0;
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+  font-family:sans-serif;	
+  background: #E6E6E6 ;
+  
+}
+.disable-selection {
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+   -webkit-user-select: none; /* Chrome, Safari, and Opera */
+   -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+/*End Framework*/
+
+
+.wel{
+  text-align:center;
+  font: bold;
+  font-size: 60px;
+  color: #FFD700;
+  text-align:center;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  font-family:arial;
+  text-shadow:0 1px 0 #FFD700,
+              0 2px 0 #FFD700,
+              0 3px 0 #FFD700,
+              0 4px 0 #FFD700,
+              0 20px 5px rgba(0,0,0,.1);
+}
+/*start typer*/
+ .typer{
+  text-align:center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #1b8798;
+}
+/*end typer*/
+/* start conveter*/
+.conventer{
+  background-color: #E6E6E6;
+  padding-bottom: 8px;
+  padding-top: 10px;
+}
+.conventer .have{
+  font-size: 20px;
+  font-weight: bold;
+}
+.conventer .want{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.conventer .the-amount{
+  padding: 0;
+  margin-top: 10px;
+}
+
+.conventer .the-amount .amount{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+.conventer .the-amount .the-small-text{
+  float: right;
+  margin-right: 5px;
+  color:#999999 ;
+}
+.conventer .exchange{
+  text-decoration: none;
+  color: #9B9B9B;
+}
+.conventer .abb{
+  text-align: right;
+}
+/*End conventer*/
+
+
+
+/*Start draw*/
+.drawer-section{
+  font-size:1.5em
+}
+.drawer-section-svg svg{
+  width:100%;
+  height:100%;
+  font:20em/1 Roboto
+}
+.drawer-section-1{
+  fill:none;
+  stroke:#fff;
+  stroke-dasharray:8% 28%;
+  stroke-width:6px;
+  -webkit-animation:stroke-offset 8s infinite linear;
+  animation:stroke-offset 8s infinite linear
+}
+.drawer-section-1:nth-child(1){
+  stroke:#1b8798;
+  stroke-dashoffset:7%
+}
+.drawer-section-1:nth-child(2){
+  stroke:#fff;
+  stroke-dashoffset:14%
+}
+.drawer-section-1:nth-child(3){
+  stroke:#1b8798;
+  stroke-dashoffset:21%
+}
+.drawer-section-1:nth-child(4){stroke:#FFF;
+stroke-dashoffset:28%
+}
+.drawer-section-1:nth-child(5){stroke:#1b8798;
+stroke-dashoffset:35%
+}
+@-webkit-keyframes stroke-offset{
+  50%{
+    stroke-dashoffset:35%;
+    stroke-dasharray:0 87.5%
+  }
+}
+@keyframes stroke-offset{
+  50%{
+stroke-dashoffset:35%;
+stroke-dasharray:0 87.5%
+}
+}
+/* End draw*/
+select { 
+  text-align-last: right; 
+}
+option { 
+  direction: rtl; 
+  font-weight: bold;
+}
+
+
+
